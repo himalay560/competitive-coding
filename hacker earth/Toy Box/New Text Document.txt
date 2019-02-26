@@ -1,0 +1,27 @@
+You have N toys and M toy boxes. Initially all boxes are empty, and each box can contain only one toy. Each toy has a price and a box number assigned to it. If you want to choose a toy, you must put it in its assigned box, and of course that box can’t be used for any other toys. You need choose some toys (with their boxes) such that summation of their price is maximized.
+
+
+INPUT FORMAT:
+
+First line contains two integers N and M, they are number of toys and number of toy boxes repectively. Each of the next N lines will contain information about each toy P[i] and B[i], where P[i] is the price of i’th toy and B[i] is the box number assigned to it.
+
+1<=N,M<=100
+1<=b[i]<=M
+1<=P[i]<=100
+
+OUTPUT FORMAT:
+
+Print one integer, maximum summation of  price of toys that you can choose by following the problem description.
+
+
+SAMPLE INPUT    SAMPLE OUTPUT
+ 5   6               10
+ 3   1
+ 4   2
+ 1   1
+ 2   3
+ 1   6
+
+Explanation:
+
+You can get 10 by choosing all toys except the third one. Beacuse it can't be put in first box, which is already carrying first toy
