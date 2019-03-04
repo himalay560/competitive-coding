@@ -1,0 +1,83 @@
+Your task is to find the minimum sum path from (0,0) to (N-1,N-1) in given N x N matrix. 
+Only right , down moves are allowed.
+
+
+For example for the below matrix minimum path sum is 277
+
+
+2 71 62 10 4
+
+33 58 35 25 11
+
+66 12 49 100 17
+
+78 5 53 2 85
+
+87 38 12 22 95
+
+
+Here, 2+33+58+12+5+38+12+22+95=277
+
+
+
+Warning!! very large input files use faster i/o's
+
+
+
+Input:
+
+
+
+The first line of the input contains an integer N denoting the size of square matrix. and next lines consist of N2 integers
+
+
+Output:
+
+
+Output minimum path sum from (0,0) to (N-1,N-1) in a single line
+
+
+
+Constraints:
+
+Should contain all the constraints on the input data that you may have. 
+Format it like:
+
+
+1 = N = 1000
+
+1 = Ai = 109
+
+
+Subtask 1(30pts):
+    1 = N = 15
+
+
+Subtask 2(70pts):
+    original constraints
+
+
+
+Example:
+
+
+
+Input:
+
+5
+
+2 71 62 10 4
+
+33 58 35 25 11
+
+66 12 49 100 17
+
+78 5 53 2 85
+
+87 38 12 22 95
+
+
+
+Output:
+
+277
