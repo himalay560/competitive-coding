@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-int a[20];
+int a[20]; //array size to be declared based on the constraints
 int x,z=0;
 int check(int u,int v)
 {
