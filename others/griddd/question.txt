@@ -1,0 +1,25 @@
+There is a Rectangular Grid of size N*M ( length – N units and breadth M units) . There is an Ant which is initially at bottom left corner of the grid i.e (0,0). It wants to go from bottom left corner to Top Right Corner i.e (N,M). It can take any of the Right,Left,Up,Down directions from its position. You need to print the mimimal steps taken by the ant to reach the destination and number of such minimal paths available for it.
+
+Input Format
+
+The first line of input contains T denoting the number of test cases . Next N lines follow each containing values of N and M of the grid.
+
+Constraints
+
+1<=T<=200 n,m>=1 and n+m<=20
+
+Output Format
+
+output consisits of T lines each line containg two space seperated integers denoting minimal steps and number of paths available for each test case.
+
+
+sample input:
+3
+1 6
+3 3
+6 1
+
+sample output:
+7 7
+6 20
+7 7
