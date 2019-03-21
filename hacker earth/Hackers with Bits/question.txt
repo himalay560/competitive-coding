@@ -1,0 +1,51 @@
+Hackers love bits, so does Alex. Alex has just started his 
+career as hacker and found a special binary array A 
+(containing 0's and 1's).
+
+
+In one operation, he can choose any two positions in the 
+array, and can swap their values. He has to perform exactly 
+one operation and maximize the length of the subarray 
+containing only 1's.
+
+
+Note: The positions can be different or same.
+
+
+As Alex is a newbie in his field, help him for the same, and 
+output the required length of the sub array containing only 
+1's.
+
+
+Input Format:
+
+First line consists of one integer N, denoting the number of 
+elements in the array.
+
+
+Second line consists of N space-separated integers, denoting the elements of the array.
+
+
+Output Format:
+
+Print the required length of the sub array containing only 
+1's.
+
+Input Constraints:
+1<=N<=100
+0<=A[i]<=1
+
+SAMPLE INPUT 
+5
+1 1 1 0 1
+
+SAMPLE OUTPUT 
+4
+
+Explanation
+Here N=5.
+
+And if we choose positions 4th and  5th(1 based indexing in 
+array), we can swap their values and the length of the sub-array 
+(from index 1 to 4) containing only 1's, will be 4.
+
