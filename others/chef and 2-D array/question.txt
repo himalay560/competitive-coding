@@ -46,15 +46,15 @@ Format it like:
 
 1 = N = 1000
 
-1 = Ai = 109
+1 = Ai = 10^9
 
 
 Subtask 1(30pts):
-    1 = N = 15
+Â Â  Â 1 = N = 15
 
 
 Subtask 2(70pts):
-    original constraints
+Â Â  Â original constraints
 
 
 
