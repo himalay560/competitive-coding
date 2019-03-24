@@ -1,0 +1,44 @@
+You are given an array Arr of size N, containing integers. You have to answer Q queries where each query is of the form :
+
+K L R :- If K=0, then you have to find the probability of choosing an even number from the segment [L,R] (both Inclusive) in the array Arr.
+
+K L R :- If K=1, then you have to find the probability of choosing an odd number from the segment [L,R] (both Inclusive) in the array Arr.
+
+For each query print two integers p and q which represent the probability p/q. Both p and q are reduced to the minimal form.
+
+If p is 0 or p is equal to q print p/q alone.
+
+Constraints: 
+
+1<=T<=10
+1<=N,Q<=10000
+1<=Arr[i]<=1000000
+0<=K<=1
+1<=L<=R<=N
+
+Format of the input file: 
+
+First line : T i.e Number of testcases. 
+
+For each testcase :
+First line : Two space separated integers N and Q.
+Second line : N space separated integers denoting the array .
+Next Q lines : Three space separated integers K L and R.
+
+Format of the output file:
+Output the answer to each query in a separate line. 
+
+SAMPLE INPUT 
+1
+5 2
+6 5 2 1 7 
+0 2 2
+1 2 5
+
+SAMPLE OUTPUT 
+0
+3 4
+
+Explanation
+For 1st query since there are no even numbers in the given range hence probability is 0.
+
