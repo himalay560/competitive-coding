@@ -1,0 +1,20 @@
+Consider a permutation of numbers 1 to N written on a paper. Let’s denote the product of its element as P and the sum of its elements as S. Given a positive integer N, your task is to determine whether P is divisible by S or not. 
+
+Input Format
+There will be multiple test cases, each input will start with an integer T (1<=T<=100), number of test cases.
+Each test case will contain an integer N (1<=N<=10^9), length of the permutation.
+
+Output Format 
+For each test case, print “YES” if P is divisible by S, otherwise print “NO”.
+
+SAMPLE INPUT 
+2
+2
+3
+
+SAMPLE OUTPUT 
+NO
+YES
+
+Explanation
+(1+2) doesn't divide (1*2), but (1+2+3) divides (1*2*3).
