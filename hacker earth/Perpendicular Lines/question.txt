@@ -1,4 +1,5 @@
-Given 4 points of the form (xi, yi) in 2D plane, find out if the lines formed by (x1, y1), (x2, y2) and (x3, y3), (x4, y4) are perpendicular to each other.
+Given 4 points of the form (xi, yi) in 2D plane, find out if the lines formed by (x1, y1), (x2, y2) and (x3, y3), (x4, y4) are
+perpendicular to each other.
 
 NOTE:
 
