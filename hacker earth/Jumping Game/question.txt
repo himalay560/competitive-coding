@@ -1,0 +1,33 @@
+According to Prince, Rohit is the most intelligent guy in the Nehru Hall. To prove him wrong, Chhotta Patwari give him a problem. But Rohit is busy in preparations for the sessionals. He wants you to help him. The problem statement is:
+You are standing on point 0.
+
+You can take two moves Suppose you are at point x you can move to (x + 1)th point or (2*x)th point
+
+The cost of moving to (x + 1)th point is a and cost of moving to (2*x)th point is b
+
+You are required to reach the destination point n in minimum cost
+
+Input Format:
+
+First line contains 't' the number of test cases.
+Each test case contains three integers n, a, b
+n is the destination index, a is the cost of moving from x to x+1 
+b is the cost of moving from x to 2*x
+
+Output Format:
+
+For each test case output minimum cost to reach the destination index n in a separate line.
+
+Constraints: 
+1 <= t <= 30
+1 <= n <= 100000
+1 <= a, b <= 1000000000
+
+SAMPLE INPUT 
+2	
+9 5 1
+1 3 4
+
+SAMPLE OUTPUT 
+13
+3
