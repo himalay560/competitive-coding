@@ -1,4 +1,5 @@
-According to Prince, Rohit is the most intelligent guy in the Nehru Hall. To prove him wrong, Chhotta Patwari give him a problem. But Rohit is busy in preparations for the sessionals. He wants you to help him. The problem statement is:
+According to Prince, Rohit is the most intelligent guy in the Nehru Hall. To prove him wrong, Chhotta Patwari give him a problem.
+But Rohit is busy in preparations for the sessionals. He wants you to help him. The problem statement is:
 You are standing on point 0.
 
 You can take two moves Suppose you are at point x you can move to (x + 1)th point or (2*x)th point
