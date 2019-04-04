@@ -1,6 +1,9 @@
-All Might finally chose Deku to be the successor of One For All. But before passing on his power, All Might gave a final task to Deku. He gave a binary string S (a string consisting of only 0's and 1's) and asked to find the number of substrings of S which represented a positive even number. 
+All Might finally chose Deku to be the successor of One For All. But before passing on his power, All Might gave a final task to Deku. 
+He gave a binary string S (a string consisting of only 0's and 1's) and asked to find the number of substrings of S which represented 
+a positive even number. 
 
-Since Deku is destined to become the greatest superhero of all, he has to solve this problem somehow. You are asked to help Deku to solve this problem so that he can inherit One For All. 
+Since Deku is destined to become the greatest superhero of all, he has to solve this problem somehow. You are asked to help Deku to 
+solve this problem so that he can inherit One For All. 
 
 INPUT FORMAT:
 
