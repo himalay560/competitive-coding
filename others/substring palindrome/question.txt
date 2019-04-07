@@ -1,12 +1,14 @@
-You are given a string S. Find the number of ways to choose a pair of non-empty substrings of this string (let's denote them by s1 and s2) such that their concatenation s1+s2 is a palindrome.
+You are given a string S. Find the number of ways to choose a pair of non-empty substrings of this string 
+(let's denote them by s1 and s2) such that their concatenation s1+s2 is a palindrome.
 
-Two pairs (s1,s2) and (s'1,s'2) are different if s1 is chosen at a different position from s'1 or s2 is chosen at a different position from s'2.
+Two pairs (s1,s2) and (s'1,s'2) are different if s1 is chosen at a different position from s'1 or s2 is chosen
+at a different position from s'2.
 
 Input
 The first and only line of the input contains a single string S.
 
 Output
-Print a single line containing one integer — the number of ways to choose a valid pair of substrings.
+Print a single line containing one integer â€” the number of ways to choose a valid pair of substrings.
 
 Constraints
 1=|S|=1,000
