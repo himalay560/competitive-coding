@@ -1,0 +1,24 @@
+t=int(input())
+while(t):
+    t-=1
+    n=[int(x) for x in input().split()]
+    r=n[0]
+    c=n[1]
+    k=n[2]
+    if((r+k)>8):
+        a=8-r
+    else:
+        a=k
+    if((r-k)<1):
+        a=a+r
+    else:
+        a=a+k+1
+    if((c+k)>8):
+        b=8-c
+    else:
+        b=k
+    if((c-k)<1):
+        b=b+c
+    else:
+        b=b+k+1
+    print(b*a)
