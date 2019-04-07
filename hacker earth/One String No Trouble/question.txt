@@ -1,4 +1,5 @@
-A string S is called a good string if and only if two consecutive letters are not the same. For example, "abcd" and  "cda" are good while "abaa" and "accba" are not.
+A string S is called a good string if and only if two consecutive letters are not the same. For example, "abcd" and  "cda" are 
+good while "abaa" and "accba" are not.
 
 You are given a string S. Among all the good substrings of S ,print the size of the longest one.
 
