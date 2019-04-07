@@ -1,0 +1,20 @@
+A string S is called a good string if and only if two consecutive letters are not the same. For example, "abcd" and  "cda" are good while "abaa" and "accba" are not.
+
+You are given a string S. Among all the good substrings of S ,print the size of the longest one.
+
+Input format
+
+A single line that contains a string S(1<=|S|<=2*10^5).
+
+Output format
+
+Print an integer that denotes the size of the longest good substring of S.
+
+SAMPLE INPUT 
+ab
+
+SAMPLE OUTPUT 
+2
+
+Explanation
+The complete string is good so the answer is 2.
