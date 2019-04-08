@@ -4,11 +4,13 @@ Encryption Algorithm is as follows:
 We say message to be encrypted as Plain Text and encrypted form of message as Cipher.
 Plain Text consists of lower case alphabets only.
 
-Initially, we start with 0 (zero). For each character in Plain Text, we move either clockwise or anti-clockwise on the disk depending on which way is closest from where we are currently standing.
+Initially, we start with 0 (zero). For each character in Plain Text, we move either clockwise or anti-clockwise on the disk
+depending on which way is closest from where we are currently standing.
 If both clockwise and anti-clockwise distances are equal, we give priority to clockwise movement.
 Clockwise movements are represented using positive numbers while Anti-clockwise movements are represented as negative numbers.
 
-Roy needs your help in implementing this algorithm. Given a Plain Text message, your task is to encrypt it using above algorithm and print the Cipher Text.
+Roy needs your help in implementing this algorithm. Given a Plain Text message, your task is to encrypt it using above
+algorithm and print the Cipher Text.
 
 Input:
 First line contains integer T - number of test cases.
@@ -35,7 +37,10 @@ SAMPLE OUTPUT
 2 12 3 0 13 -2 -9
 
 Explanation
-We begin from 0 (zero) 1. 'a'->'c' - two steps clockwise, we reach 'c' 2. 'c'->'o' - twelve steps clockwise, we reach 'o' 3. 'o'->'r' - three steps clockwise, we reach 'r' 4. 'r'->'r' - we are already at 'r', so zero steps 5. 'r'->'e' - thirteen steps clockwise, we reach 'e' 6. 'e'->'c' - here moving anti-clockwise is optimal, so two steps anticlockwise, and for anticlockwise we add negative sign. 7. 'c'->'t' - again anti-clockwise, nine steps.
+We begin from 0 (zero) 1. 'a'->'c' - two steps clockwise, we reach 'c' 2. 'c'->'o' - twelve steps clockwise, 
+we reach 'o' 3. 'o'->'r' - three steps clockwise, we reach 'r' 4. 'r'->'r' - we are already at 'r', so zero steps 5.
+'r'->'e' - thirteen steps clockwise, we reach 'e' 6. 'e'->'c' - here moving anti-clockwise is optimal, so two steps 
+anticlockwise, and for anticlockwise we add negative sign. 7. 'c'->'t' - again anti-clockwise, nine steps.
 
 
 
