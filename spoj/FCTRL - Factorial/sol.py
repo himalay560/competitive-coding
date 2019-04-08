@@ -1,0 +1,12 @@
+t=int(input())
+while(t):
+    n=int(input())
+    d=0
+    c=5
+    while(1):
+        d=d+n//c
+        c=c*5
+        if(n//c==0):
+            break
+    print(d)
+    t-=1
