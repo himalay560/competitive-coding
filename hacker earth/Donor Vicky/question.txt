@@ -1,4 +1,6 @@
-Vicky being a noble person, decided to donate X amount of money to the poor. He has many coins of value from 1 to infinity. He decided to donate money to N poor people numbered 1 to N  and give one coin to each poor in increasing order of the value of the coin. after giving the coin to the Nth poor he starts the same process from 1st poor person till he donates all his money. 
+Vicky being a noble person, decided to donate X amount of money to the poor. He has many coins of value from 1 to infinity.
+He decided to donate money to N poor people numbered 1 to N  and give one coin to each poor in increasing order of the value 
+of the coin. after giving the coin to the Nth poor he starts the same process from 1st poor person till he donates all his money. 
 
 If he is left with some amount whose coin he had already used he give a cheque of leftover money to the next poor in the sequence.
 Help Vicky in finding the person who got the last coin or cheque.
@@ -30,7 +32,8 @@ SAMPLE OUTPUT
 1
 
 Explanation
-For test case 1 -> TDS will donate 1 coin to beggar 1, 2 to beggar 2, and as hi is left with less than 3 coins for beggar 3, he will give a cheque along with 1 coin, so beggar 3 would be the last to receive a coin
+For test case 1 -> TDS will donate 1 coin to beggar 1, 2 to beggar 2, and as hi is left with less than 3 coins 
+for beggar 3, he will give a cheque along with 1 coin, so beggar 3 would be the last to receive a coin
 
 For TC2, the sequence is,
 
