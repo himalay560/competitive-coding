@@ -1,4 +1,6 @@
-Shlok and Sachin are good friends. Shlok wanted to test Sachin, so he wrote down a string S with length N and one character X. He wants Sachin to find the number of different substrings of S which contain the character X at least once. Sachin is busy with his girlfriend, so he needs you to find the answer.
+Shlok and Sachin are good friends. Shlok wanted to test Sachin, so he wrote down a string S with length N and one character X.
+He wants Sachin to find the number of different substrings of S which contain the character X at least once. Sachin is busy with 
+his girlfriend, so he needs you to find the answer.
 
 Two substrings of S are considered different if their positions in S are different.
 
@@ -8,7 +10,7 @@ The first line of each test case contains a single integer N.
 The second line contains a string S with length N, followed by a space and a character X.
 
 Output
-For each test case, print a single line containing one integer — the number of substrings of S that contain X.
+For each test case, print a single line containing one integer â€” the number of substrings of S that contain X.
 
 Constraints
 1=T=1,000
@@ -35,4 +37,5 @@ Example Output
 15
 
 Explanation
-Example case 1: The string "abb" has six substrings: "a", "b", "b", "ab", "bb", "abb". The substrings that contain 'b' are "b", "b", "ab", "bb", "abb".
+Example case 1: The string "abb" has six substrings: "a", "b", "b", "ab", "bb", "abb". The substrings that contain 
+'b' are "b", "b", "ab", "bb", "abb".
