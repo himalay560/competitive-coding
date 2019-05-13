@@ -1,6 +1,7 @@
 A postfix expression is of the form instead of the traditional infix expression which follows the form .
 
-Your task is to write a program that takes advantage of the stack data structure and converts a given infix expression into its postfix expression.
+Your task is to write a program that takes advantage of the stack data structure and converts a given infix expression into its
+postfix expression.
 
 INPUT
 
