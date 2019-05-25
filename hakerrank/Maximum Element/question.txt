@@ -5,7 +5,8 @@ You have an empty sequence, and you will be given  queries. Each query is one of
 3    -Print the maximum element in the stack.
 Input Format
 
-The first line of input contains an integer, N. The next N lines each contain an above mentioned query. (It is guaranteed that each query is valid.)
+The first line of input contains an integer, N. The next N lines each contain an above mentioned query. 
+(It is guaranteed that each query is valid.)
 
 Constraints 
  
