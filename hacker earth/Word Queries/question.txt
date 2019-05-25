@@ -1,0 +1,49 @@
+Jayati shared an interesting game for testing memorization power with her friends. The game is:
+
+You will get a list of words and some queries. You will be asked, to find out how many words in the list have 
+a query word as a prefix.
+
+If you will not be able to answer her queries, you will miss a chance to impress her. And at any cost, 
+you want to impress her by answering quickly for each query.
+
+Input Format:
+
+The first line contains N, Q: the number words in list and number of queries.
+
+N lines follow, with words (of the list) consisting of lowercase letters.
+The sum of their lengths won't be greater than 10^6.
+
+Q lines follow, with words (queries) consisting of lowercase letters. The sum of their lengths won't be greater than 10^6.
+
+Output Format:
+
+For each query print the number of words in the list which have actual word as the prefix.
+
+SAMPLE INPUT 
+12 6
+bulldog
+dog
+dogged
+doggedly
+doggerel
+dogma
+dogmatic
+dogmatism
+dogs
+catastroph
+catastroph
+doctor
+cat
+dog
+dogg
+do
+doctrinography
+dogge
+
+SAMPLE OUTPUT 
+2
+8
+3
+9
+0
+3
