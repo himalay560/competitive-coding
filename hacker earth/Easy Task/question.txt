@@ -1,0 +1,38 @@
+Daksh is one of the greatest ever players to have played football. Now, he is easily impressed by the people who loves
+mathematics and can solve the problems easily. You want an autograph of this legendary player, but for that you have to 
+first solve his problem. So he has a problem for you :
+
+You are given two arrays 'A' and 'B' of equal size 'N' . Now, Daksh calls a pair of indices (i,j) connected , if i=j or A[i]=A[j].
+
+Now, for each index i , in the array 'A' where 1<=i<=N ; you need to find the maximum B[j] , such that indices i and j are connected. Can you do it ?
+
+Input :
+
+The first line contains a single integer, N
+The next line contains N space separated integers, where the ith integer denotes A[i] ,
+The next line too contains N space separated integers, where the ith integer denotes B[i] .
+
+Output:
+
+Print N space separated integers according to those mentioned in the problem statement.
+
+Constraints:
+
+1<= N <=2*10^5
+1<= A[i] <=10^9
+1<= B[i] <=10^9
+
+SAMPLE INPUT 
+5
+1 2 3 2 1
+6 7 8 7 6
+
+SAMPLE OUTPUT 
+6 7 8 7 6
+
+Explanation
+Indices 1 and 5 are connected. Therefore the answer for indices 1 and 5 will be whichever has a larger value of B[].
+
+Similarly, indices 2 and 4 are connected.
+
+Index 3 is not connected to any other index.
