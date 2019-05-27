@@ -4,7 +4,8 @@ first solve his problem. So he has a problem for you :
 
 You are given two arrays 'A' and 'B' of equal size 'N' . Now, Daksh calls a pair of indices (i,j) connected , if i=j or A[i]=A[j].
 
-Now, for each index i , in the array 'A' where 1<=i<=N ; you need to find the maximum B[j] , such that indices i and j are connected. Can you do it ?
+Now, for each index i , in the array 'A' where 1<=i<=N ; you need to find the maximum B[j] , such that indices i and j are connected. 
+Can you do it ?
 
 Input :
 
