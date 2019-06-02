@@ -1,0 +1,42 @@
+You are given a very large number N. Let N be represented as N[1]N[2]N[3]....N[m], where m is the number of digits in N. 
+You are asked Q queries. Each query is of the following form:
+
+lr - determine the digit with the highest frequency in the range l to r, i.e N[l],N[l+1],...N[r].
+
+Note: If there are two or more digits with the highest frequency, then print the digit with higher value.
+
+INPUT FORMAT
+
+First Line: N - the very large number.
+Second Line: Q - the number of queries.
+Next Q lines: 2 integers - l and r as described in the statement.
+
+OUTPUT FORMAT
+
+For each query, print two space separated integers - d and f - the digit with the highest frequency, and its frequency.
+
+CONSTRAINTS
+
+1<=m<=10^5
+1<=Q<=5*10^5
+1<=l<=r<=m
+0<=N[i]<=9 (1<=i<=m)
+
+Note that m is the number of digits in the number N
+
+SAMPLE INPUT 
+
+1359034857
+3
+1 10
+1 4
+10 10
+
+SAMPLE OUTPUT 
+
+5 2
+9 1
+7 1
+
+Explanation
+Case 2: All digits occur only once. Hence the answer is 9 1
