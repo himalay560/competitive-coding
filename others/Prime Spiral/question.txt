@@ -1,0 +1,45 @@
+The prime numbers are written in a spiral form starting at (0,0) as shown in the diagram below :
+
+           .___.___.___.___.         2
+           |       7       |
+           . 11.___.___.5  .         1
+           |   |       |   |
+           .   .  2.___.3  .         0
+           |   |           |
+           .   .___.___.___.   .     -1
+           |                   |
+	   .___.___.___.___.___.     -2
+
+          -2  -1   0   1   2   3
+
+The numbers shown on the right are column number whereas the numbers shown on the left are row numbers.
+
+Your task is to write a program that given a prime number finds out its position in the grid.
+
+Input
+
+First line contains the number of test cases. 
+Each test case consists of a single number N. 
+N does not exceed 1000000
+
+Output
+
+Print N lines. 
+On each line is the answer to a single test case. 
+For every testcase print the X and the Y co-ordinates of the given input prime.
+
+Sample Input 0
+
+4
+2
+3
+5
+7
+
+Sample Output 0
+
+0 0
+1 0
+1 1
+0 1
+
