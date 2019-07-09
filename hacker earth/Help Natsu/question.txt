@@ -1,13 +1,8 @@
-Natsu wishes to find Igneel, the dragon who is like a father 
-to him. But in order to find him he has to complete certain 
-number of tasks. Tasks are defined by string of lowercase 
-english alphabets and he may be asked to complete a same task 
-more than once. He has a list of N tasks. But he wants to 
-complete the tasks which occur multiple times together. Also 
-he wants to complete the tasks which occurs least frequently 
-first. If two tasks have same frequency the lexicographicaly 
-smaller will be completed first. Help him prepare such a list 
-representing frequency of tasks and task name separated by a space.
+Natsu wishes to find Igneel, the dragon who is like a father to him. But in order to find him he has to complete certain 
+number of tasks. Tasks are defined by string of lowercase english alphabets and he may be asked to complete a same task 
+more than once. He has a list of N tasks. But he wants to complete the tasks which occur multiple times together. Also 
+he wants to complete the tasks which occurs least frequently first. If two tasks have same frequency the lexicographicaly 
+smaller will be completed first. Help him prepare such a list representing frequency of tasks and task name separated by a space.
 
 Constraints: 
 
@@ -17,7 +12,8 @@ Constraints:
 
 Input: 
 
-First line contains the number of test cases T. For each of the T test cases first line is number N the number of Tasks followed by N strings of lowercase english alphabet.
+First line contains the number of test cases T. For each of the T test cases first line is number N the number of Tasks followed 
+by N strings of lowercase english alphabet.
 
 Output: 
 
